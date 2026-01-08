@@ -25,6 +25,14 @@
 
 }
 
+.btn:hover {
+    background-color: white;
+    color: #469165;
+    box-shadow: 0px 2px 15px rgba(100, 100, 100, 0.105);
+    border: 1px solid #469165;
+
+}
+
 
 /* main Style */
 
@@ -59,4 +67,72 @@ header #nav-container {
     line-height: 152%;
     font-weight: 500px;
     color: #000000;
+}
+
+main #hero {
+    padding-top: 115px;
+    background: url(../assets/hero-bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .hero-container {
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.hero-container .btn-type-two {
+    padding: 8px 12px;
+    border-radius: 1000px;
+    background-color: #FFFFFF;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+#hero .hero-container .text h1 {
+    font-size: 72px;
+    color: #FFFFFF;
+    line-height: 84px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#hero .hero-container .text .style-text {
+    display: inline-block;
+    color: #469165;
+}
+
+#hero .hero-container .text p {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    padding: 0 200px;
+}
+
+#hero .hero-container .btn-type-three {
+    background-color: rgba(0,0,0,0.1);
+    padding: 12.5px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 16px;
+
+}
+
+#hero .hero-container .btn-type-three:hover {
+    background-color: #469165;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(100, 100, 100, 0.105);
+    border: 1px solid #469165;
 }
