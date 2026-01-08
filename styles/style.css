@@ -98,7 +98,14 @@ main #hero {
     color: #469165;
     font-size: 16px;
     font-weight: 500;
+    border: none;
     margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#hero .hero-container .btn-type-two:hover {
+    background-color: #469165;
+    color: white;
 }
 
 #hero .hero-container .text h1 {
